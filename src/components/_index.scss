@@ -1,0 +1,56 @@
+.header{
+    padding: 7px;
+    p{
+        margin-bottom: 2px;;
+    }
+}
+
+
+.projects{
+    &_line{
+        display: flex;
+        &_p{
+            flex: 0 0 33.33%;
+            &_text{
+                margin-top: -10px;
+                p{
+                text-align: center;
+                margin-bottom: 10px;
+                }
+            }
+        }
+        
+    }
+    
+}
+
+.project{
+    &_mainpic{
+        width: 30%;
+        margin:auto;
+    }
+    &_text{
+        margin:auto;
+        width: 30%;
+    }
+    &_grid{
+        &_line{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &_p{
+                flex: 0 0 33.33%;
+            }
+        }
+    }
+    img{
+        margin: 0px;
+    }
+}
+
+.pres{
+    padding: 5px;
+    p{
+        margin-bottom: 2px;
+    }
+}

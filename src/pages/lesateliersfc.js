@@ -13,7 +13,7 @@ import { Link } from 'gatsby';
 
 
 
-const Sab = () => {
+const Lesateliersfc = () => {
   return (
     <main>
         <Layout>
@@ -56,5 +56,5 @@ const Sab = () => {
   )
 }
 
-export default Sab
+export default Lesateliersfc
 

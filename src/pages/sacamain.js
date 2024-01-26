@@ -20,11 +20,13 @@ const Sac = () => {
             <img src={h7} alt="h1" />
           </div>
           <div className="project_text">
-            <p><b> SAC À MAIN  ～  2023     </b> <br/>
-            Réalisation d’un sac à main en tissu de récupération + étiquette 
-            Patronage, assemblage, couture, linogravure, tamponage
-            <br/>
-                </p>
+            <h3> SAC À MAIN  ～  2023    </h3>
+
+            <p className="project_text_desc">
+            Réalisation d’un sac à main en tissu de récupération + étiquette.  <br/>
+            Patronage, assemblage, couture, linogravure. </p>
+            <p><i>Photos de Léa Zoltobroda</i>  </p>
+           
           </div>
           <div className="project_grid">
             <div className="project_grid_line">
@@ -38,14 +40,14 @@ const Sac = () => {
                 <img src={p3} alt="p3" />
               </div>
             </div>
-            <div className="project_grid_line">
-              <div className="project_grid_line_p">
+            <div className="project_grid_line2">
+              <div className="project_grid_line2_p">
                 <img src={p4} alt="p1" />
               </div>
-              <div className="project_grid_line_p">
+              <div className="project_grid_line2_p">
                 <img src={p5} alt="p2" />
               </div>
-              <div className="project_grid_line_p">
+              <div className="project_grid_line2_p">
                 <img src={p6} alt="p3" />
               </div>
             </div>

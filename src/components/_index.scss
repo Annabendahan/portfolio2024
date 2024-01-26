@@ -1,5 +1,5 @@
 .header{
-    padding: 7px;
+    padding: 7px 10px;
     p{
         margin-bottom: 2px;;
     }
@@ -8,9 +8,14 @@
 
 .projects{
     &_line{
-        display: flex;
+        display: block;
+        @include breakpoint(s) {
+            display: flex;
+        }
         &_p{
-            flex: 0 0 33.33%;
+            @include breakpoint(s) {
+                flex: 0 0 33.33%;
+            }
             &_text{
                 margin-top: -10px;
                 p{
@@ -26,26 +31,63 @@
 
 .project{
     &_mainpic{
-        width: 30%;
+        width: 100%;
         margin:auto;
+        @include breakpoint(s) {
+            width: 30%;
+            margin:auto;
+        }
     }
     &_text{
         margin:auto;
-        width: 30%;
+        width: 95%;
+        @include breakpoint(s) {
+            width: 30%;
+            margin:auto;
+        }
+        &_desc{
+            margin-bottom: 7px;
+
+        }
+        padding-bottom: 20px;
+        @include breakpoint(s) {
+            padding-bottom: 0px;
+        }
     }
     &_grid{
+        img{
+            margin-top: -20px;
+            @include breakpoint(s) {
+                margin: 0px;
+            }
+        }
         &_line{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            &_p{
-                flex: 0 0 33.33%;
+            @include breakpoint(s) {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            &_p{   
+                @include breakpoint(s) {
+                    flex: 0 0 33.33%;
+                }
+            }
+        }
+        &_line2{
+            @include breakpoint(s) {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: -10px;
+            }
+            &_p {
+                @include breakpoint(s) {
+                    flex: 0 0 33.33%;
+                }
             }
         }
     }
-    img{
-        margin: 0px;
-    }
+   
 }
 
 .pres{

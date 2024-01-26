@@ -7,7 +7,9 @@ const Header = () => {
 
     return (
         <main className="header">
-           <p>Anna Bendahan, designer + developer </p>
+           <Link to="/">
+                <p>Anna Bendahan, design + developpement </p>
+            </Link>
         </main>
     )
 }

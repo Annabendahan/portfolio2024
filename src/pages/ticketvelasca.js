@@ -26,9 +26,11 @@ const Ticket = () => {
             </video>
           </div>
           <div className="project_text">
-            <p><b> TICKET POUR L’ AS VELASCA  ～  2022    </b> <br/>
-            Graphisme, flocage <br/>
-            Club de foot artistique Milanais</p>
+            <h3> TICKET POUR L’ AS VELASCA  ～  2022   </h3>
+            <p className="project_text_desc">
+            Réalisation d'un ticket pour un match de l'AS VELASCA, club de foot artistique Milanais.<br/> Graphisme, flocage réfléchissant.</p>
+            <p><i> Photos de Thomas Signollet</i></p>
+         
           </div>
           <div className="project_grid">
             <div className="project_grid_line">
@@ -42,14 +44,14 @@ const Ticket = () => {
                 <img src={t4} alt="p3" />
               </div>
             </div>
-            <div className="project_grid_line">
-              <div className="project_grid_line_p">
+            <div className="project_grid_line2">
+              <div className="project_grid_line2_p">
                 <img src={t3} alt="p1" />
               </div>
-              <div className="project_grid_line_p">
+              <div className="project_grid_line2_p">
                 <img src={t2} alt="p2" />
               </div>
-              <div className="project_grid_line_p">
+              <div className="project_grid_line2_p">
                 <img src={t5} alt="p3" />
               </div>
             </div>

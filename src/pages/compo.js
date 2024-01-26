@@ -20,8 +20,8 @@ const Compo = () => {
           </div>
           <div className="project_text">
             <p><b> COMPO POUR MATCH  ～  2021 </b> <br/>
-                Graphisme, impression risographique<br/>
-                Pour la rencontre LES ATELIERS FC/ REIMS</p>
+                Compo de foot imprimée en risographie.  <br/>
+               </p>
           </div>
           <div className="project_grid">
             <div className="project_grid_line">

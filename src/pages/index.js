@@ -95,6 +95,7 @@ const IndexPage = () => {
               </p>
             </div>
           </div>
+          <Link to="/lesateliersfc">
           <div className="projects_line_p">
             <img src={h9} alt="h2" />
             <div className="projects_line_p_text">
@@ -102,6 +103,7 @@ const IndexPage = () => {
               </p>
             </div>
           </div>
+          </Link>
         </div>
       </div>
       </Layout>

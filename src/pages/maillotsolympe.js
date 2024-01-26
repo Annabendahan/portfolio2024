@@ -22,9 +22,13 @@ const Sab = () => {
             <img src={h2} alt="h2" />
           </div>
           <div className="project_text">
-            <p><b> SACS À BALLONS  ～  2023   </b> <br/>
-                Patronage, assemblage, couture  <br/>
-                </p>
+            <h3> MAILLOTS DU CLUB OLYMPE  ～  2022 </h3>
+            <p className="project_text_desc">Création d’un jeu de maillots pour le club de foot Olympe. <br/>
+            Design, patronage, sourcing, assemblage, couture, finitions, flocage. </p>
+            
+           <p> <i> Avec Nino Gardent-Bolzer <br/>
+            Photos de Marion Renerre </i>  <br/></p>
+               
           </div>
           <div className="project_grid">
             <div className="project_grid_line">
@@ -38,14 +42,14 @@ const Sab = () => {
                 <img src={p3} alt="p3" />
               </div>
             </div>
-            <div className="project_grid_line">
-              <div className="project_grid_line_p">
+            <div className="project_grid_line2">
+              <div className="project_grid_line2_p">
                 <img src={p4} alt="p1" />
               </div>
-              <div className="project_grid_line_p">
+              <div className="project_grid_line2_p">
                 <img src={p5} alt="p2" />
               </div>
-              <div className="project_grid_line_p">
+              <div className="project_grid_line2_p">
                 <img src={p6} alt="p3" />
               </div>
             </div>

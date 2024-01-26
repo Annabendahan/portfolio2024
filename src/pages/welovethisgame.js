@@ -24,10 +24,12 @@ const Welovethisgame = () => {
             <img src={h5} alt="p1" />
           </div>
           <div className="project_text">
-            <p><b> TOURNOI WE LOVE THIS GAME  ～  2022      </b> <br/>
-            Organisation d’un tournoi de foot alternatif à la coupe du mode 2022 à la cité fertile. <br/>
-            Participation à la réalisation de la charte graphique, et déclinaison en divers objets (écharpes, brassards, drapeaux, affiches) <br/>
-            Flocage, sublimation, couture.  </p>
+            <h3> TOURNOI WE LOVE THIS GAME  ～  2022     </h3> 
+            <p className="project_text_desc">
+            Co-organisation d’un tournoi de foot alternatif à la coupe du mode 2022 à la cité fertile avec le club Olympe. <br/>
+            Participation à la réalisation de la charte graphique, et déclinaison en divers objets (écharpes, brassards, drapeaux, affiches).<br/>
+            Flocage, sublimation, couture. </p>
+            <p><i> Photos de Marion Renerre</i></p>
           </div>
           <div className="project_grid">
             <div className="project_grid_line">
@@ -41,14 +43,14 @@ const Welovethisgame = () => {
                 <img src={p3} alt="p3" />
               </div>
             </div>
-            <div className="project_grid_line">
-              <div className="project_grid_line_p">
+            <div className="project_grid_line2">
+              <div className="project_grid_line2_p">
                 <img src={p4} alt="p1" />
               </div>
-              <div className="project_grid_line_p">
+              <div className="project_grid_line2_p">
                 <img src={p5} alt="p2" />
               </div>
-              <div className="project_grid_line_p">
+              <div className="project_grid_line2_p">
                 <img src={p6} alt="p3" />
               </div>
             </div>

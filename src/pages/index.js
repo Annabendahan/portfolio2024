@@ -13,6 +13,7 @@ import h6 from '../images/h6.png'
 import h7 from '../images/h7.png'
 import h8 from '../images/h8.png'
 import h9 from '../images/h9.png'
+import p1 from '../images/lafc/l1.png'
 
 
 
@@ -20,6 +21,7 @@ const IndexPage = () => {
   return (
     <main>
        <Layout>
+       <img src={p1} alt="h1" />
        
       <div className="projects">
         <div className="projects_line">

@@ -1,4 +1,6 @@
 import * as React from "react"
+import '../components/style.scss'
+
 import h32 from '../images/h32.png'
 import p1 from '../images/compo/compo1.png'
 import p2 from '../images/compo/compo2.png'

@@ -1,5 +1,7 @@
 import Layout from '../components/layout'
 import * as React from "react"
+import '../components/style.scss'
+
 import h6 from '../images/h6.png'
 import t1 from '../images/ticket/t1.png'
 import t2 from '../images/ticket/t2.png'

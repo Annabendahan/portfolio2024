@@ -1,5 +1,6 @@
 import Layout from '../components/layout'
 import * as React from "react"
+import '../components/style.scss'
 import h9 from '../images/h9.png'
 import p1 from '../images/about/p1.png'
 import p2 from '../images/about/p2.png'

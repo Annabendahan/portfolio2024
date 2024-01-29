@@ -26,7 +26,7 @@ const Welovethisgame = () => {
           <div className="project_text">
             <h3> TOURNOI WE LOVE THIS GAME  ～  2022     </h3> 
             <p className="project_text_desc">
-            Co-organisation d’un tournoi de foot alternatif à la coupe du mode 2022 à la cité fertile avec le club Olympe. <br/>
+            Co-organisation d’un tournoi de foot alternatif à la coupe du monde 2022 à la Cité Fertile avec le club Olympe. <br/>
             Participation à la réalisation de la charte graphique, et déclinaison en divers objets (écharpes, brassards, drapeaux, affiches).<br/>
             Flocage, sublimation, couture. </p>
             <p><i> Photos de Marion Renerre</i></p>

@@ -3,6 +3,10 @@
     p{
         margin-bottom: 2px;;
     }
+    &_line{
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 
@@ -90,3 +94,32 @@
    
 }
 
+
+.about{
+    
+    &_grid{
+        &_line{
+            display: block;
+            @include breakpoint(s) {
+                display: flex;
+            }
+            &_p{
+                img{
+                    margin-bottom: -10px !important;
+                }
+                @include breakpoint(s) {
+                    flex: 0 0 33.33%;
+                }
+                &_desc{
+                    padding: 20px;
+                    color: black;
+                    p{
+                        margin-bottom: 10px;
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+    }
+   
+}

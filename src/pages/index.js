@@ -51,7 +51,9 @@ const IndexPage = () => {
           </div>
           </Link>
         </div>
+       
         <div className="projects_line">
+        <a href="https://jgenerator.netlify.app/" target="_blank" rel="site">
           <div className="projects_line_p">
             <img src={h4} alt="h1" />
             <div className="projects_line_p_text">
@@ -59,6 +61,7 @@ const IndexPage = () => {
               </p>
             </div>
           </div>
+        </a>
           <Link to="/welovethisgame">
           <div className="projects_line_p">
             <img src={h5} alt="h2" />
@@ -88,6 +91,7 @@ const IndexPage = () => {
             </div>
           </div>
           </Link>
+          <Link to="/sitedesateliersfc">
           <div className="projects_line_p">
             <img src={h8} alt="h2" />
             <div className="projects_line_p_text">
@@ -95,6 +99,7 @@ const IndexPage = () => {
               </p>
             </div>
           </div>
+          </Link>
           <Link to="/lesateliersfc">
           <div className="projects_line_p">
             <img src={h9} alt="h2" />
@@ -113,4 +118,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Anna Bendahan</title>

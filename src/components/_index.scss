@@ -92,8 +92,10 @@
         }
     }
     &_video{
-        width: 80%;
-        margin:auto;
+        @include breakpoint(s) {
+            width: 80%;
+            margin:auto;
+        }
     }
    
 }

@@ -24,7 +24,7 @@ const Ticket = () => {
         <div className="project">
           <div className="project_mainpic">
             <video autoPlay loop muted>
-                <source src={v1} type="video/mp4" />
+                <source src={v1} crossOrigin="anonymous" type="video/mp4" />
             </video>
           </div>
           <div className="project_text">

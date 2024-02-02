@@ -23,7 +23,7 @@ const Ticket = () => {
         <Layout>
         <div className="project">
           <div className="project_mainpic">
-            <video autoPlay loop muted>
+            <video autoPlay loop muted playsInline={true}>
                 <source src={v1} crossOrigin="anonymous" type="video/mp4" />
             </video>
           </div>

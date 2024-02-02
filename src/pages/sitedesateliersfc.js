@@ -31,7 +31,7 @@ Gatsby.js, React.js, HTML, SCSS, JS, Stripe </p>
                 </p>
           </div>
           <div className="project_video">
-            <video autoPlay loop muted>
+            <video autoPlay loop muted playsInline={true}>
                 <source src={v1} crossOrigin="anonymous" type="video/mp4" />
             </video>
           </div>

@@ -6,6 +6,7 @@ import h8 from '../images/h8.png'
 import p2 from '../images/sitelafc/p2.png'
 import p3 from '../images/sitelafc/p3.png'
 import p4 from '../images/sitelafc/p4.png'
+import v1 from '../images/sitelafc/VIDEOSITE.mp4'
 
 
 import { Link } from 'gatsby';
@@ -29,19 +30,12 @@ Gatsby.js, React.js, HTML, SCSS, JS, Stripe </p>
             Photos de Thomas Signollet </i> 
                 </p>
           </div>
-          <div className="project_grid">
-            <div className="project_grid_line">
-              <div className="project_grid_line_p">
-                <img src={p2} alt="p1" />
-              </div>
-              <div className="project_grid_line_p">
-                <img src={p4} alt="p2" />
-              </div>
-              <div className="project_grid_line_p">
-                <img src={p3} alt="p3" />
-              </div>
-            </div>
+          <div className="project_video">
+            <video autoPlay loop muted>
+                <source src={v1} type="video/mp4" />
+            </video>
           </div>
+          <br/><br/> <br/><br/>
         </div>
         </Layout>
     </main>

@@ -36,8 +36,8 @@ const About = () => {
                     </div>
                     <div className='about_grid_line_p'>
                     <div className='about_grid_line_p_desc'>
-                        <p>Développeuse web de formation (Paris Dauphine + le Wagon Barcelone), j’ai exercé en agence, chez Veepee et chez Chanel. <br/><br/>
-                        Peu à peu, en parallèle du code, j’ai développé une activité plus créative. Le partage d’un atelier Plateau Urbain avec des ami.e.s designer et footballeur.euses a donné naissance à plusieurs projets, comme l’organisation de tournois, la confection de maillots, de brassards, de drapeaux, de sacs. J’ai ainsi pu me former au projet de design ainsi qu’à diverses pratiques (couture, patronage, découpe textile, flocage, sublimation, impression, linogravure).<br/><br/>
+                        <p>Développeuse web de formation (Paris Dauphine + le Wagon Barcelone), j’ai exercé en agence, chez Vente Privée et chez Chanel. Spécialisée en Front-End, j'ai pu approfondir, en parallèle de la compétence technique (Javascript, react, HTML, SCSS), des connaissances en web design, graphisme, et animations.  <br/><br/>
+                        Peu à peu, à côté du code, j’ai développé des activités plus pratiques. Le partage d’un atelier Plateau Urbain avec des ami.e.s designer et footballeur.euses a donné naissance à plusieurs projets, comme l’organisation de tournois, la confection de maillots, de brassards, de drapeaux, de sacs. J’ai ainsi pu me former au projet de design ainsi qu’à diverses compétences (couture, patronage, découpe textile, flocage, sublimation, impression, linogravure).<br/><br/>
                         J’alterne aujourd’hui des missions de code et de set-design (notamment avec Justine Ponthieux pour Dior et Yeezy), tout en continuant à côté des projets personnels.<br/><br/><br/>
                             <hr/>
                             <b>

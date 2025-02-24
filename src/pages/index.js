@@ -13,6 +13,7 @@ import h6 from '../images/h6.png'
 import h7 from '../images/h7.png'
 import h8 from '../images/h8.png'
 import h9 from '../images/h9.png'
+import h10 from '../images/h10.png'
 
 
 
@@ -32,16 +33,31 @@ const IndexPage = () => {
             </div>
           </div>
         </Link>
-        <Link to="/maillotsolympe">
+        <Link to="/welovethisgame">
           <div className="projects_line_p">
-            <img src={h2} alt="h2" />
+            <img src={h5} alt="h2" />
             <div className="projects_line_p_text">
-              <p> <b>MAILLOTS DU CLUB OLYMPE  ～  2022   </b><br/>
+              <p> <b>TOURNOI WE LOVE THIS GAME  ～  2022    </b><br/>
               </p>
             </div>
           </div>
           </Link>
-          <Link to="/compo">
+        <Link to="/setdesign">
+          <div className="projects_line_p">
+            <img src={h10} alt="h2" />
+            <div className="projects_line_p_text">
+              <p> <b>SET DESIGN  ～  2022/23   </b><br/>
+              </p>
+            </div>
+          </div>
+          </Link>
+       
+         
+        </div>
+       
+        <div className="projects_line">
+          
+        <Link to="/compo">
           <div className="projects_line_p">
             <img src={h3} alt="h3" />
             <div className="projects_line_p_text">
@@ -50,9 +66,15 @@ const IndexPage = () => {
             </div>
           </div>
           </Link>
-        </div>
-       
-        <div className="projects_line">
+          <Link to="/maillotsolympe">
+          <div className="projects_line_p">
+            <img src={h2} alt="h2" />
+            <div className="projects_line_p_text">
+              <p> <b>MAILLOTS DU CLUB OLYMPE  ～  2022   </b><br/>
+              </p>
+            </div>
+          </div>
+          </Link>
         <a href="https://jgenerator.netlify.app/" target="_blank" rel="site">
           <div className="projects_line_p">
             <img src={h4} alt="h1" />
@@ -62,16 +84,11 @@ const IndexPage = () => {
             </div>
           </div>
         </a>
-          <Link to="/welovethisgame">
-          <div className="projects_line_p">
-            <img src={h5} alt="h2" />
-            <div className="projects_line_p_text">
-              <p> <b>TOURNOI WE LOVE THIS GAME  ～  2022    </b><br/>
-              </p>
-            </div>
-          </div>
-          </Link>
-          <Link to="/ticketvelasca">
+         
+         
+        </div>
+        <div className="projects_line">
+        <Link to="/ticketvelasca">
           <div className="projects_line_p">
             <img src={h6} alt="h3" />
             <div className="projects_line_p_text">
@@ -80,8 +97,6 @@ const IndexPage = () => {
             </div>
           </div>
           </Link>
-        </div>
-        <div className="projects_line">
         <Link to="/sacamain">
           <div className="projects_line_p">
             <img src={h7} alt="h1" />
@@ -100,16 +115,19 @@ const IndexPage = () => {
             </div>
           </div>
           </Link>
-          <Link to="/lesateliersfc">
-          <div className="projects_line_p">
+        
+        </div>
+        <div className="projects_line_p_last">
+        <Link to="/lesateliersfc">
             <img src={h9} alt="h2" />
             <div className="projects_line_p_text">
               <p> <b> PARTICIPATION AUX MAILLOTS DES ATELIERS FC  ～  2021   </b><br/>
               </p>
             </div>
-          </div>
+        
           </Link>
-        </div>
+          
+          </div>
       </div>
       </Layout>
     </main>
